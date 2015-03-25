@@ -143,8 +143,8 @@ class Gaussian2DKernel(Kernel2D):
         plt.show()
 
     """
-   _separable = True
-   _is_bool = False
+    _separable = True
+    _is_bool = False
 
     def __init__(self, stddev, **kwargs):
         self._model = models.Gaussian2D(1. / (2 * np.pi * stddev ** 2), 0,
